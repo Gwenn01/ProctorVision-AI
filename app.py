@@ -27,12 +27,10 @@ CORS(
 # Import Blueprints (Routes)
 # ----------------------------------------------
 from routes.classification_routes import classification_bp
-from routes.video_routes import video_bp
 from routes.webrtc_routes import webrtc_bp
 
 # Register them under /api
 app.register_blueprint(classification_bp, url_prefix="/api")
-app.register_blueprint(video_bp, url_prefix="/api")
 app.register_blueprint(webrtc_bp, url_prefix="/api")
 
 # ----------------------------------------------
