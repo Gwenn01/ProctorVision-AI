@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+ProctorVision-AI
+venv/
+.env/
+
+# Model files
+model/*.keras
+model/*.h5
+model/*.npy
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
