@@ -1,9 +1,0 @@
-Flask==3.0.3
-Flask-Cors==4.0.0
-numpy==1.26.4
-opencv-python-headless==4.9.0.80
-mediapipe==0.10.14
-Pillow==10.3.0
-aiortc==1.9.0
-gunicorn==21.2.0
-tensorflow-cpu==2.15.0
