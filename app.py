@@ -80,6 +80,6 @@ def home():
 # Main Entrypoint
 # -------------------------------------------------------------
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 7860))  # Hugging Face default port
+    port = int(os.environ.get("PORT", 8080))  # Hugging Face default port
     debug = os.environ.get("DEBUG", "False").lower() == "true"
     app.run(host="0.0.0.0", port=port, debug=debug)
